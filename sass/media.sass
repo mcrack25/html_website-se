@@ -1,0 +1,119 @@
+$blue: #0F7CEA;
+
+.navigation
+  display: block
+.navigation-mobile
+  display: none
+
+@media (min-width: 1340.999px)
+  .container
+    max-width: 1340px
+
+  .soc_and_flag
+    justify-content: flex-end
+  .lang
+    justify-content: flex-end
+
+@media (min-width: 1640px)
+  .container
+    max-width: 1640px
+
+@media (max-width: 992.999px)
+
+  .grecaptcha-badge
+    display: none !important
+
+  .section
+    &__title
+      font-size: 2.8rem
+
+  .navigation
+    display: none
+  .navigation-mobile
+    display: block
+  
+  .header
+    height: auto
+    padding: 50px 0 50px
+    .rounds
+      margin-top: 50px
+  
+  .offer
+    margin-top: 120px
+    &__title
+      font-size: 4.6rem
+      &:after
+        content: ''
+        display: inline-block
+        width: 8px
+        height: 49px
+        background: $blue
+        margin-left: 10px
+    &__desc
+      font-size: 3rem
+
+  .services
+    .rounds
+      margin-top: 50px
+
+    .service
+      padding: 30px 50px
+
+  .portfolio
+    .nav-pills
+      display: flex
+      flex-direction: column
+      .nav-link
+    .rounds
+      margin-top: 70px
+
+  .numbers
+    .rounds
+      margin-top: 120px
+
+  .number-one
+    &__title
+      font-size: 6rem
+    &__desc
+      font-size: 1.4rem
+
+
+  .support
+    background: none
+    .section__title
+      color: #626262
+
+  .support-form
+    &__button
+      margin: 0 auto
+      padding: 30px 0px
+      color: #fff
+    &__button
+      width: 100%
+      background: $blue
+
+  .people-say
+    &-slider
+      margin-top: 40px
+      &__item
+        padding: 0 30px
+      &__arrows
+        .slick-prev
+
+  .we-work-slider
+    margin-top: 40px
+    &__item
+      padding: 0 50px
+
+
+  .footer
+    &__menu
+      ul
+        display: flex
+        flex-direction: column
+        justify-content: center
+      li
+        margin: 0
+        margin-bottom: 10px
+        &:last-child
+          margin-bottom: 0

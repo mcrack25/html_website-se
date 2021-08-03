@@ -1,0 +1,142 @@
+.navigation {
+  display: block;
+}
+
+.navigation-mobile {
+  display: none;
+}
+
+@media (min-width: 1340.999px) {
+  .container {
+    max-width: 1340px;
+  }
+  .soc_and_flag {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .lang {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+}
+
+@media (min-width: 1640px) {
+  .container {
+    max-width: 1640px;
+  }
+}
+
+@media (max-width: 992.999px) {
+  .grecaptcha-badge {
+    display: none !important;
+  }
+  .section__title {
+    font-size: 2.8rem;
+  }
+  .navigation {
+    display: none;
+  }
+  .navigation-mobile {
+    display: block;
+  }
+  .header {
+    height: auto;
+    padding: 50px 0 50px;
+  }
+  .header .rounds {
+    margin-top: 50px;
+  }
+  .offer {
+    margin-top: 120px;
+  }
+  .offer__title {
+    font-size: 4.6rem;
+  }
+  .offer__title:after {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 49px;
+    background: #0F7CEA;
+    margin-left: 10px;
+  }
+  .offer__desc {
+    font-size: 3rem;
+  }
+  .services .rounds {
+    margin-top: 50px;
+  }
+  .services .service {
+    padding: 30px 50px;
+  }
+  .portfolio .nav-pills {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .portfolio .rounds {
+    margin-top: 70px;
+  }
+  .numbers .rounds {
+    margin-top: 120px;
+  }
+  .number-one__title {
+    font-size: 6rem;
+  }
+  .number-one__desc {
+    font-size: 1.4rem;
+  }
+  .support {
+    background: none;
+  }
+  .support .section__title {
+    color: #626262;
+  }
+  .support-form__button {
+    margin: 0 auto;
+    padding: 30px 0px;
+    color: #fff;
+  }
+  .support-form__button {
+    width: 100%;
+    background: #0F7CEA;
+  }
+  .people-say-slider {
+    margin-top: 40px;
+  }
+  .people-say-slider__item {
+    padding: 0 30px;
+  }
+  .we-work-slider {
+    margin-top: 40px;
+  }
+  .we-work-slider__item {
+    padding: 0 50px;
+  }
+  .footer__menu ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer__menu li {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .footer__menu li:last-child {
+    margin-bottom: 0;
+  }
+}
+/*# sourceMappingURL=media.css.map */
